@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital@1&family=Open+Sans&display=swap');
+.jumbotron {
+    background-image: url(image/Visual\ Studio\ Code.jpeg);
+    border-radius: 0px;
+    height: 90vh;
+    margin-top: -56px;
+    background-size: cover;
+    border-radius: 0px;
+}
+
+.jumbotron h1 {
+    margin-top: 100px;
+    text-shadow: 0px 0px 0px 4px black;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.myButton {
+    margin-top: 100px;
+}
+
+.card-body {
+    font-family:'Libre Baskerville', serif;
+    font-size: 24px;
+}
+.myCard {
+    margin-top: -85px;
+}
+
+.section2 {
+    margin-top: 50px;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+}
+
+.section2 .col-5 h1 {
+    
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        margin-top: -56px;
+        border-radius: 0px;
+    }
+
+    .navbar-light .navbar-brand {
+        color: white;
+    }
+}
